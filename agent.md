@@ -11,7 +11,7 @@ This is a standalone static Australian immigration information site for Vietname
 - Do not add React, Vue, Next.js, Tailwind, Bootstrap, jQuery, TypeScript, npm packages, build tools or a backend.
 - Do not add a contact form, fake submission state, eligibility calculator, chatbot, testimonial, rating or invented professional credential.
 - Do not add unrelated visa categories.
-- The website name is the brand identifier. Do not create a logo, logo mark, flag, mascot or invented firm identity.
+- ANZ Migrate is the publisher; show supplied Australian and New Zealand registration identifiers in all footers. The website name is the brand identifier. Do not create a logo, logo mark, flag, mascot or invented firm identity.
 
 ## Page map
 
@@ -20,7 +20,8 @@ This is a standalone static Australian immigration information site for Vietname
 - `skillselect/index.html`: ten step SkillSelect and EOI sequence.
 - `study/index.html`: Student visa subclass 500 process, Genuine Student requirement and post study considerations.
 - `faq/index.html`: search intent questions written for this audience.
-- `privacy/index.html`: static site privacy note and immigration disclaimer.
+- `privacy/index.html`: static site privacy note.
+- `who-we-are/index.html`: concise ANZ Migrate publisher identity with official About Us link.
 
 ## Content guardrails
 
