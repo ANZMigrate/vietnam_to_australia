@@ -1,0 +1,105 @@
+/* Compact ownership page. Existing grid, navigation and typography are shared. */
+.page-about .about-hero { background: radial-gradient(ellipse at 82% 12%, #203b54, transparent 56%), #101d2c; }
+.page-about .about-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(17rem, .75fr);
+  align-items: center;
+  gap: clamp(2rem, 5vw, 5rem);
+}
+.page-about .about-hero-copy { max-width: 710px; }
+.page-about .about-hero-copy h1 { max-width: 760px; color: #fff; }
+.page-about .about-hero-copy .about-hero-lede {
+  max-width: 560px;
+  color: #f4f7fb;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+.page-about .about-hero-copy .about-hero-detail {
+  max-width: 560px;
+  color: #dce5ee;
+  font-size: 17.5px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+.page-about .about-hero-copy .hero-actions { margin-top: 2rem; }
+.page-about .about-hero-copy .hero-actions .button {
+  background: #fff;
+  border-color: #fff;
+  color: #102568;
+}
+.page-about .about-hero-copy .hero-actions .button:hover {
+  background: #e1e7f4;
+  border-color: #e1e7f4;
+  color: #102568;
+}
+.page-about .about-hero-copy .hero-actions .button-secondary {
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+.page-about .about-hero-copy .hero-actions .button-secondary:hover {
+  background: rgba(255,255,255,.12);
+  color: #fff;
+}
+.page-about .about-brand-card {
+  min-width: 0;
+  padding: clamp(1.6rem, 3vw, 2.7rem);
+  border: 1px solid rgba(255,255,255,.28);
+  border-radius: 1.5rem;
+  background: rgba(255,255,255,.09);
+  color: #fff;
+}
+.page-about .about-brand-label {
+  margin-bottom: clamp(3rem, 8vw, 6rem);
+  color: #e0e8f0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.page-about .about-brand-name {
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: clamp(30px, 3.5vw, 46px);
+  line-height: 1.22;
+  letter-spacing: -.025em;
+  font-weight: 400;
+}
+.page-about .about-brand-desc { color: #e1e8f0; font-size: 15px; line-height: 1.6; }
+.page-about .about-brand-link {
+  display: inline-flex;
+  margin-top: 1.25rem;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.6;
+  text-decoration: underline;
+  text-underline-offset: .3em;
+}
+.page-about .about-details { background: #fff; }
+.page-about .about-details-grid {
+  display: grid;
+  grid-template-columns: minmax(0, .76fr) minmax(0, 1.1fr);
+  gap: clamp(2rem, 6vw, 7rem);
+  align-items: start;
+}
+.page-about .about-details h2 { color: #111; max-width: 500px; }
+.page-about .about-details-text p {
+  max-width: 720px;
+  color: #222;
+  font-size: 17.5px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+.page-about .about-details-text .text-link { margin-top: 1rem; }
+.page-about .about-details-links { display: flex; flex-wrap: wrap; gap: 1.2rem 2rem; }
+.page-about .site-footer { background: var(--page-bg); }
+@media (max-width: 900px) {
+  .page-about .about-hero-grid, .page-about .about-details-grid { grid-template-columns: 1fr; }
+  .page-about .about-brand-card { max-width: 660px; }
+}
+@media (max-width: 767px) {
+  .page-about .about-hero-copy .about-hero-lede, .page-about .about-hero-copy .about-hero-detail { font-size: 17.5px; }
+  .page-about .about-hero-grid { gap: 2rem; }
+  .page-about .about-brand-label { margin-bottom: 2rem; }
+}

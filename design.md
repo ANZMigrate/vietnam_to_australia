@@ -10,12 +10,13 @@ The primary audience is Vietnamese professionals, graduates and students. The vo
 
 ## Type
 
-- Primary family: Google Sans Flex, Arial, sans-serif.
-- Body size: 16px base with 1.65 line height.
-- Reading copy: approximately 17px to 19px where a longer paragraph needs more comfort.
-- Hero heading: responsive, capped around 88px on wide desktop, with a more restrained mobile scale.
-- Section headings: responsive, capped around 57px.
-- Use weight 680 to 760 for hierarchy. Reserve the strongest weight for H1, H2 and visa subclass numbers.
+- Google Sans Flex, regular weight 400 for headings and body copy.
+- Hero heading: clamp(44px, 5vw, 72px), 44px on mobile; line height 1.08 / 1.12.
+- Section heading: 37.5px desktop / 35px mobile; line height 1.25.
+- Supporting copy: 17.5px, line height 1.6; cards and labels: 15px, line height 1.6.
+- Navy buttons #102568 with white text; hover #243966. Keep letter spacing normal.
+- Light footer with subtle divider, dark text and keyboard focus states.
+- See typography.md for the implemented type scale.
 
 ## Layout
 
@@ -41,7 +42,7 @@ The design uses warm or cool paper-like surfaces, ink text, muted secondary text
 - Numbered process list for SkillSelect and Student visa preparation.
 - Evidence cards for skills assessment and Genuine Student topics.
 - Native FAQ details with one open item at a time.
-- Footer disclaimer and privacy page. There is no contact form in this version.
+- Footer with ANZ Migrate professional registration details, a Who We Are page and a privacy page. No contact form or Chatwoot widget.
 
 ## Motion
 
@@ -58,6 +59,6 @@ The local script uses GSAP for header entrance, hero entrance, card reveal and a
 
 - Mobbin inspiration: [Oyster](https://mobbin.com/sites/sections/67fdec3d-e3a1-49f7-9c34-9923acb1eba5) and [Complex Law](https://mobbin.com/sites/sections/d6b4e853-443b-4754-b6a3-626b51a82d0c); no external design assets copied.
 - Midnight editorial hero, luminous geometric visa visualization, calm white information cards, refined mobile navigation and coherent inner-page treatment.
-- Google Sans Flex typography with a system-font fallback; semantic content and visa disclaimers retained.
+- Google Sans Flex typography with a system-font fallback; semantic content and material visa eligibility statements retained.
 - GSAP-based entrance, card, and scroll-reveal enhancements retain reduced-motion and CDN failure fallbacks.
 - The country-specific `site-vietnam` theme class controls the distinctive local palette.
